@@ -1,7 +1,7 @@
 {
-  "name": "case2",
+  "name": "case3",
   "version": "1.0.0",
-  "description": "StyleLint で SCSS の構文チェックや自動ソートを行う",
+  "description": "Asset Modules を活用して画像を最適化する",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
