@@ -1,0 +1,50 @@
+.form-check {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.5rem;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+.form-check-input {
+  width: 1.375em;
+  min-width: 1.375em;
+  height: 1.375em;
+  min-height: 1.375em;
+  margin-right: 8px;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 0;
+  appearance: none;
+
+  &[type="checkbox"] {
+    background-image: url('../icons/icon-check.svg');
+
+    &:focus {
+      background-image: url('../icons/icon-check-focus.svg');
+    }
+
+    &:checked {
+      background-image: url('../icons/icon-check-checked.svg');
+    }
+  }
+
+  &[type="radio"] {
+    background-image: url('../icons/icon-radio.svg');
+
+    &:focus {
+      background-image: url('../icons/icon-radio-focus.svg');
+    }
+
+    &:checked {
+      background-image: url('../icons/icon-radio-checked.svg');
+    }
+  }
+}
+
+.background-image {
+  width: 1200px;
+  height: 900px;
+  background-image: url('../images/bg-sample.jpg');
+}
