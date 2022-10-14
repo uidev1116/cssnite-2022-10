@@ -3,3 +3,25 @@
   height: 200px;
   background-color: red;
 }
+
+// /* NG */
+// .ng { width: calc(100% -20px); }
+// /* OK */
+// .ok { width: calc(100% - 20px); }
+
+// /* NG */
+// .ng {
+// }
+// /* OK */
+// .ok {
+//   width: 200px;
+// }
+
+// /* NG */
+// .ng:hoverr {
+//   color: #000;
+// }
+// /* OK */
+// .ok:hover {
+//   color: #fff;
+// }

@@ -51,7 +51,7 @@ module.exports = {
       emitError: true,
       emitWarning: true,
       failOnError: false,
-      fix: true,
+      fix: false,
     }),
   ],
 };

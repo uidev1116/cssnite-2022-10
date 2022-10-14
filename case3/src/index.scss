@@ -43,8 +43,14 @@
   }
 }
 
+.text {
+  text-align: center;
+}
+
 .background-image {
-  width: 1200px;
-  height: 900px;
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
   background-image: url('../images/bg-sample.jpg');
+  background-size: cover;
 }

@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: `${__dirname}/dest/`,
     filename: '[name].js',
+    clean: true,
   },
   module: {
     rules: [

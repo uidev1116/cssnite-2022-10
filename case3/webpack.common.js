@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: `${__dirname}/dest/`,
     filename: '[name].js',
-    // assetModuleFilename: 'assets/[name][ext]',
+    assetModuleFilename: 'assets/[name][ext]',
   },
   module: {
     rules: [
